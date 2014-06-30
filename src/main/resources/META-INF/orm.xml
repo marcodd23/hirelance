@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd">
+
+	<entity class="it.mwt.hirelance.business.model.Education"></entity>
+	<entity class="it.mwt.hirelance.business.model.User"></entity>
+	<entity class="it.mwt.hirelance.business.model.Employment"></entity>
+	<entity class="it.mwt.hirelance.business.model.Language"></entity>
+	<entity class="it.mwt.hirelance.business.model.Skill"></entity>
+	<entity class="it.mwt.hirelance.business.model.PortfolioItem"></entity>
+	<entity class="it.mwt.hirelance.business.model.Curriculum"></entity>
+	<entity class="it.mwt.hirelance.business.model.FreelanceProfile"></entity>
+	<entity class="it.mwt.hirelance.business.model.ClientProfile"></entity>
+	<entity class="it.mwt.hirelance.business.model.Project"></entity>
+	<entity class="it.mwt.hirelance.business.model.Category"></entity>
+	<entity class="it.mwt.hirelance.business.model.FeedBack"></entity>
+	<entity class="it.mwt.hirelance.business.model.Role"></entity>
+	<entity class="it.mwt.hirelance.business.model.Proposal"></entity>
+	<entity class="it.mwt.hirelance.business.model.Message"></entity>
+
+</entity-mappings>

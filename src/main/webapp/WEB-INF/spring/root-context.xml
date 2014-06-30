@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+           http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd
+           http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+
+	
+	<!-- Definisco il bean per il salvataggio dei file in upload  -->
+	<!-- <bean id="fileStorageConfiguration" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+          <property name="locations" value="classpath:filestorage.properties"/>
+    </bean>  -->
+	
+	<!-- Definisco il bean per il salvataggio dei file in upload  -->
+	<util:properties id="uploadPaths" location="classpath:filestorage.properties"/>
+	
+	
+
+	<jee:jndi-lookup id="dataSource" jndi-name="jpa/hirelancedb" />
+
+    
+
+	<bean id="myEmf"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="persistenceUnitName" value="HL" />
+		<property name="dataSource" ref="dataSource" />
+		<property name="jpaVendorAdapter">
+			<bean
+				class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
+				<property name="showSql" value="false" />
+				<property name="generateDdl" value="true" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="txManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="myEmf" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+    <tx:annotation-driven transaction-manager="txManager"/>
+
+	<!-- Scans for application @Component and @Service to deploy -->
+	<context:component-scan base-package="it.mwt.hirelance.business.impl" />
+
+	
+ <!-- Task Automatici in BackEnd -->
+<!-- 	<task:scheduler id="myScheduler" pool-size="10"/> 
+    <task:scheduled-tasks scheduler="myScheduler"> 
+      <task:scheduled ref="JPAProjectService" method="checkProjectExpired" 
+      fixed-delay="3600000"/> 
+    </task:scheduled-tasks>  -->
+
+</beans>

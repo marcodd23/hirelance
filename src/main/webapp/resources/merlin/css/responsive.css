@@ -1,0 +1,857 @@
+
+/* Table of Content
+================================================================================================== 
+	#Media Queries
+	
+	
+/* #Media Queries
+================================================================================================== */
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+
+/* -------------------------------------------
+	HEADER
+* -------------------------------------------- */
+
+/*	Top search textbox  */	
+	.top_search_textbox { width:60px; }
+	
+
+	
+	
+	
+/* -------------------------------------------
+	FRACTION SLIDER ( fs_slider )
+* -------------------------------------------- */	
+	.fraction-slider .next ,.fraction-slider .prev { top:140px; }
+	
+	
+	
+	
+/* -------------------------------------------
+	FEATURED SERVICES 
+* -------------------------------------------- */
+
+/*	Featured service version 1  */
+	.featured_v1 .content { width:143px; }	
+	
+/*	Featured service version 4  */	
+	ul.featured_v4 li { width:143px; }
+	ul.featured_v4 li .item_holder, ul.featured_v4 li .item { width:133px; height:133px; }
+	ul.featured_v4 li.arrow { margin:0 14px; min-height:133px; }
+	ul.featured_v4 li h3 { margin-top:150px; }
+
+	
+	
+/* -------------------------------------------
+	RECENT LIST
+* -------------------------------------------- */
+
+	ul.rc_list li:nth-child(2n+2) { margin-left:10px !important; }
+	ul.rc_list li:nth-child(1n+2) { margin-left:0px; }
+
+/*	Recent list panel  */	
+	.panel { width:357px; height:308px; }
+	
+/*	Small version  */	
+	ul.rc_list.smallv .panel { width:261px; height:225px; }
+	ul.rc_list.smallv li.last { margin-right:10px; }
+
+	
+/* -------------------------------------------
+	CLIENTS LIST
+* -------------------------------------------- */
+
+	ul.clients  li img{ height:70px;width:133px; }
+	
+
+	
+	
+/* -------------------------------------------
+	SUBSCRIBE NEWSLETTER
+* -------------------------------------------- */
+	.subscribe_controls_holder input[type="text"] { width:220px; }
+	
+
+	
+	
+/* -------------------------------------------
+	PROMO BOXES
+* -------------------------------------------- */
+
+/*	Standard promobox  */
+	.standard_promobox { width:725px; }
+	.standard_promobox .twelve { width:550px !important; }
+	
+		/* Small version */		
+		.standard_promobox.smallv { width:530px; }
+	
+	
+	
+	
+	
+/* -------------------------------------------
+	BLOG POSTS
+* -------------------------------------------- */
+	
+/*  Large post */
+	.large_post .post_item_holder,.large_post .gallery_items_holder,.large_post .gallery_slider { width:544px; height:229px; }
+	.large_post .bx-prev, .large_post .bx-next { top:90px; }
+	
+/*  Medium post */
+	.medium_post .post_item_holder,.medium_post .gallery_items_holder,.medium_post .gallery_slider {  height:176px; width:280px; }
+	.medium_post .medium_post_content { width:244px;  }
+	.medium_post .bx-prev, .medium_post .bx-next { top:70px; }
+	
+/*  Full width post */
+	.full_width_post .post_item_holder,.full_width_post .gallery_items_holder,.full_width_post .gallery_slider { width:736px; height:285px; }
+	.full_width_post .bx-prev, .full_width_post .bx-next { top:125px; }
+	
+/*	About the Author   */	
+	.about_author, .about_author .author_content { width:544px; }
+	
+/*	Blog Comment Form  */	
+	.reply_holder textarea { width:90%; }
+	
+	
+	
+	
+
+/* -------------------------------------------
+	CONTACT FORM
+* -------------------------------------------- */	
+	.contact_form_holder textarea { width:90%; }
+
+
+
+	
+
+/* -------------------------------------------
+	PROJECTS
+* -------------------------------------------- */	
+	
+/*	Projects Common style  */	
+	.project_holder { width:736px; height:356px; }
+	
+/*	SlideShow Project  */	
+	.project_holder .bx-prev, .project_holder .bx-next { top:165px; }
+	
+/*	Gallery Projects  */	
+	.gallery_project_item { width:226px; height:179px; }
+	
+	
+	
+	
+	
+/* -------------------------------------------
+	SIDEBAR WIDGETS
+* -------------------------------------------- */
+
+/*	Widget Latest projects	*/
+	.sidebar .widget.latest_projects .imgHolder, .sidebar .widget.latest_projects .imgHolder img { width:40px; height:40px; }	
+	.sidebar .widget.latest_projects ul li { float:left; margin:0 7px 7px 0px; }
+
+/*	Video Widget	*/	
+	.sidebar .widget.video .iframeHolder, .sidebar .widget.video .iframeHolder iframe { width:160px; height:91px; }
+
+/*	Search Widget	*/	
+	.sidebar .widget.search  input[type="text"] {  width:145px }
+	
+	
+
+	
+/* -------------------------------------------
+	PORTOFOLIO
+* -------------------------------------------- */	
+	
+	.c2,.c3, .c4 { width:764px; }
+	.c2  li, .c3  li, .c4  li{ width:353px; height:236px;  }
+	
+/* 	Gallery style  */
+	.gallery_style_item.one_column { width:736px; height:285px; }
+	.gallery_style_item.two_columns { width:353px; height:236px; }
+	.gallery_style_item.three_columns { width:226px; height:152px; }
+	.gallery_style_item.four_columns { width:162px; height:109px; }
+	
+	
+	
+	
+	
+/* -------------------------------------------
+	TESTIMONIALS
+* -------------------------------------------- */
+	.testimonials_imgHolder.half { width:352px; height:196px; }
+	.testimonials_imgHolder.three { width:224px; height:167px; }
+
+	
+	
+
+
+/* -------------------------------------------
+	TEAM
+* -------------------------------------------- */	
+	.team_imgHolder	{ width:160px; height:114px; }
+
+	
+
+
+
+/* -------------------------------------------
+	WIDE SLIDER
+* -------------------------------------------- */	
+	.wide_slider_holder  { width:735px; height:158px; }
+	.wide_slider_holder h2 { font-size:20px;  }
+	.wide_slider_holder h2.right { top:100px; margin-left:400px; }
+	.wide_slider_holder .bx-prev, .wide_slider_holder .bx-next { top:60px; }
+
+
+
+
+/* -------------------------------------------
+	BXSLIDER MAIN
+* -------------------------------------------- */
+	.bxWrapper { width:735px; height:277px; }
+	.bxWrapper .bx-prev, .bxWrapper .bx-next { top:120px; }
+	
+
+
+/* -------------------------------------------
+	FAQ
+* -------------------------------------------- */	
+	.faq_links_holder{ width:735px; }
+	.faq_links_white{ width:675px; }
+	ol.faq_links { width:640px; }
+	ol.faq_links.right { float:left; }
+	
+	
+	
+	
+/* -------------------------------------------
+	PRICING
+* -------------------------------------------- */		
+	 
+	.pricing_table ul { width:235px; margin-bottom:10px; }
+	
+	
+	
+		
+	
+/* -------------------------------------------
+	TOGGLE SEARCH
+* -------------------------------------------- */	
+	#togSearch{ display:none; }	
+
+	
+	
+	
+	
+	
+	
+	} 
+	
+
+	
+	
+/* ======================================================================================================================================= */	
+	
+	
+	
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+
+
+/* -------------------------------------------
+	HEADER
+* -------------------------------------------- */
+		
+	header .topnav_holder .three{ display:none; }
+	header .four { text-align:center; }
+	header  img.logo { float:none; }
+	header ul.contact_list{ display:none; }
+	header .social_list.small{ display:none; }
+	#mainNavigation select{ display:block; }
+	#mainNavigation #sf-main-nav{ display:none; }
+	
+
+	
+
+	
+/* -------------------------------------------
+	FRACTION SLIDER ( fs_slider )
+* -------------------------------------------- */	
+	.fraction-slider .next ,.fraction-slider .prev { top:65px; }
+
+
+
+
+	
+/* -------------------------------------------
+	FOOTER
+* -------------------------------------------- */
+	footer .sixteen { margin:0 !important; border-bottom:none !important; }
+	footer ul.bottom_links { float:left; }
+	#footer_bottom  ul.bottom_links{ margin-bottom:20px; margin-top:6px;}
+	
+	
+	
+
+/* -------------------------------------------
+	PROMO BOXES
+* -------------------------------------------- */
+	
+/*	Standard promobox  */
+	.standard_promobox { width:396px; }
+	.standard_promobox  .twelve{ width:100% !important; text-align:center; }
+	.standard_promobox  .three  { width:100% !important; margin-top:10px;}
+	.standard_promobox  .three a{ width:348px; }
+	
+	/* Small version */		
+		.standard_promobox.smallv { width:396px; }
+		.standard_promobox.smallv .eight { width:396px; }
+		
+		
+	
+/*  Full width Promobox  */
+	.full_promobox h4{ margin:0; }
+	.full_promobox .three a{ width:385px; margin:7px 0; }
+
+	
+
+	
+/* -------------------------------------------
+	FEATURED SERVICES 
+* -------------------------------------------- */
+
+/*	Featured service version 1  */
+	.featured_v1 .content { width:327px; }	
+
+/*	Featured service version 4  */	
+	ul.featured_v4 { margin-left:105px; width:200px; }
+	ul.featured_v4 li.arrow { min-height:30px !important; width:100px; margin-bottom:20px; padding-left:30px; background-image:url(../images/circle-arrows-down.png); }
+
+
+	
+/* -------------------------------------------
+	RECENT LIST
+* -------------------------------------------- */	
+	
+	ul.rc_list li:nth-child(1n+1) { margin-left:0px !important; }
+
+/*	Recent list panel  */	
+	.panel { width:408px; height:352px; }
+	
+	
+	
+
+/* -------------------------------------------
+	CLIENTS LIST
+* -------------------------------------------- */
+
+	ul.clients li, ul.clients li.last { margin-left:0px; margin-right:20px; }
+
+	
+
+
+/* -------------------------------------------
+	TOP PAGE TITLE
+* -------------------------------------------- */ 
+	
+	.top_title_holder ul { float:left; margin-top:12px; }
+	
+	
+
+	
+/* -------------------------------------------
+	BLOG POSTS
+* -------------------------------------------- */
+
+/*  Large post */
+	.large_post .post_item_holder, .large_post .gallery_items_holder, .large_post .gallery_slider  { width:409px; height:172px; }	
+	.large_post .bx-prev, .large_post .bx-next { top:70px; }
+	
+/*  Medium post */
+	.medium_post .post_item_holder,.medium_post .gallery_items_holder,.medium_post .gallery_slider {  height:258px; width:410px; margin-bottom:20px; }
+	.medium_post .medium_post_content { width:422px; margin-left:0;  }
+	.medium_post .bx-prev, .medium_post .bx-next { top:105px; }
+	
+/*  Full width post */
+	.full_width_post .post_item_holder,.full_width_post .gallery_items_holder, .full_width_post .gallery_slider  { width:409px; height:158px; }
+	.full_width_post .bx-prev, .full_width_post .bx-next { top:65px; }
+
+/*  Share Post Story  */	
+	.post_share_holder  h4{ width:100%; line-height:21px; padding:0; }	
+	.post_share_holder  ul.social_list{ float:left; width:100%; }	
+	
+/*	About the Author   */	
+	.about_author, .about_author .author_content { width:409px; }
+
+/*	Blog Comment Form  */	
+	.reply_holder textarea { width:97%; height:170px; }	
+	.reply_holder input[type="text"] { width:98%; }	
+		
+		
+		
+		
+
+/* -------------------------------------------
+	CONTACT FORM
+* -------------------------------------------- */
+	
+	.contact_form_holder textarea { width:97%; height:170px; }
+	.contact_form_holder input[type="text"] { width:98%; }		
+	
+	
+
+	
+/* -------------------------------------------
+	PROJECTS
+* -------------------------------------------- */	
+	
+/*	Projects Common style  */	
+	.project_holder { width:409px; height:198px; }	
+	
+/*	SlideShow Project  */	
+	.project_holder .bx-prev, .project_holder .bx-next { top:80px; }
+	
+/*	Gallery Projects  */	
+	.gallery_project_item { width:408px; height:324px; }	
+	ul.gallery_project_list li{ margin-left:0; }
+	
+	
+	
+	
+	
+/* -------------------------------------------
+	PAGINATION
+* -------------------------------------------- */
+	.pagination	{ float:left; }
+	
+	
+
+	
+/* -------------------------------------------
+	SIDEBAR WIDGETS
+* -------------------------------------------- */
+
+/*	Latest projects	Widget  */
+	.sidebar .widget.latest_projects ul li { float:left; margin:0 9px 9px 0px; }
+	.sidebar .widget.latest_projects ul li.last { margin-right:9px; }
+	
+/*	Video Widget  */	
+	.sidebar .widget.video .iframeHolder, .sidebar .widget.video .iframeHolder iframe { width:409px; height:172px; }
+
+/*	Search Widget  */	
+	.sidebar .widget.search  input[type="text"] {  width:390px }	
+	
+	
+	
+	
+/* -------------------------------------------
+	PORTOFOLIO
+* -------------------------------------------- */	
+
+	.c2, .c3, .c4 { width:420px; }
+	.c2  li, .c3 li, .c4  li{ width:406px; height:271px;  }
+
+/* 	Gallery style  */
+	.gallery_style_item.one_column { width:409px; height:158px; }
+	.gallery_style_item.two_columns { width:410px; height:271px; }	
+	.gallery_style_item.three_columns { width:410px; height:271px; }
+	.gallery_style_item.three_columns.last { margin:0; }
+	.gallery_style_item.four_columns { width:410px; height:271px; }
+	
+	
+	
+	
+/* -------------------------------------------
+	TESTIMONIALS
+* -------------------------------------------- */
+	.testimonials_imgHolder.half { width:409px; height:228px; }
+	.testimonials_content.full { float:left; margin:0; }
+	.testimonials_imgHolder.three { width:288px; height:170px; }
+
+	
+
+
+/* -------------------------------------------
+	WIDE SLIDER
+* -------------------------------------------- */	
+	.wide_slider_holder  { width:409px; height:88px; }
+	.wide_slider_holder h2 { font-size:10px;  padding:2px 4px; top:25px; margin-left:70px; }
+	.wide_slider_holder p { font-size:10px; top:52px; padding:2px 4px; margin-left:70px;}
+	.wide_slider_holder h2.right { top:50px; margin-left:190px; }
+	.wide_slider_holder .bx-prev, .wide_slider_holder .bx-next { top:27px; }
+
+	
+	
+
+/* -------------------------------------------
+	BXSLIDER MAIN
+* -------------------------------------------- */
+	.bxWrapper { width:409px; height:154px; }
+	.bxWrapper .bx-prev, .bxWrapper .bx-next { top:50px; }	
+	
+
+
+/* -------------------------------------------
+	FAQ
+* -------------------------------------------- */	
+	.faq_links_holder{ width:409px; }
+	.faq_links_white{ width:369px; padding:20px; }
+	ol.faq_links { width:335px; }
+	ol.faq_links.right { float:left; }
+
+	
+	
+	
+/* -------------------------------------------
+	PRICING
+* -------------------------------------------- */		
+	 
+	.pricing_table ul { width:400px; margin-bottom:20px; }
+	.pricing_table ul a { padding-left:80px; padding-right:80px; }
+	.pricing_table ul.last { margin-bottom:0; }	
+
+
+
+
+/* -------------------------------------------
+	ERROR 404
+* -------------------------------------------- */
+	.holder_404 { margin:0 auto; }
+	
+	
+
+
+	
+	
+	}
+	
+	
+	
+/* ======================================================================================================================================= */
+	
+	
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+
+/* -------------------------------------------
+	HEADER
+* -------------------------------------------- */
+
+	header .topnav_holder .three{ display:none;  }
+	header .four { text-align:center; }
+	header  img.logo { float:none !important; }
+	header ul.contact_list{ display:none; }
+	header .social_list.small{ display:none; }
+	header .topnav_holder .three{ display:none; }
+	#mainNavigation select{ display:block; }
+	#mainNavigation #sf-main-nav{ display:none; }
+	
+	
+
+	
+	
+	
+/* -------------------------------------------
+	FRACTION SLIDER ( fs_slider )
+* -------------------------------------------- */	
+	.fraction-slider .next ,.fraction-slider .prev { top:40px; }
+
+
+	
+	
+	
+	
+/* -------------------------------------------
+	FOOTER
+* -------------------------------------------- */
+
+	footer .sixteen { margin:0 !important; border-bottom:none !important;}
+	footer ul.bottom_links { float:left; }
+	#footer_bottom  ul.bottom_links{ margin-bottom:20px; margin-top:6px; }
+	
+
+
+	
+/* -------------------------------------------
+	PROMO BOXES
+* -------------------------------------------- */
+
+/*	Standard promobox  */
+	.standard_promobox { width:276px; }	
+	.standard_promobox  .twelve{ width:100% !important; text-align:center; }
+	.standard_promobox  .three  { width:100% !important; margin-top:10px;}
+	.standard_promobox  .three a{ width:228px; }
+	
+	/* Small version */		
+		.standard_promobox.smallv { width:280px; }
+		.standard_promobox.smallv .eight { width:279px; }
+		.standard_promobox.smallv  .three a{ width:232px; }
+		
+		
+	
+/*  Full width Promobox  */
+	.full_promobox h4{ margin:0; }
+	.full_promobox .three a{ width:265px; margin:7px 0; }
+	
+	
+
+	
+/* -------------------------------------------
+	FEATURED SERVICES 
+* -------------------------------------------- */
+
+/*	Featured service version 1  */
+	.featured_v1 .content { width:207px; }	
+	
+/*	Featured service version 4  */	
+	ul.featured_v4 { margin-left:60px; width:200px; }
+	ul.featured_v4 li.arrow { min-height:30px !important; width:100px; margin-bottom:20px; padding-left:30px; background-image:url(../images/circle-arrows-down.png); }
+	
+	
+	
+	
+
+/* -------------------------------------------
+	RECENT LIST
+* -------------------------------------------- */	
+	
+	ul.rc_list li:nth-child(1n+1) { margin-left:0px !important; }	
+
+/*	Recent list panel  */	
+	.panel { width:288px; height:249px; }
+	
+	
+
+
+/* -------------------------------------------
+	CLIENTS LIST
+* -------------------------------------------- */
+
+	ul.clients li { margin-left:0px; }
+	
+
+	
+	
+/* -------------------------------------------
+	SUBSCRIBE NEWSLETTER
+* -------------------------------------------- */
+	.subscribe_controls_holder input[type="text"] {  margin-right:15px; width:250px; }
+	.subscribe_controls_holder input[type="submit"],.subscribe_controls_holder input[type="button"] { margin-top:10px; margin-left:15px; width:265px; }
+	
+	
+
+	
+/* -------------------------------------------
+	TOP PAGE TITLE
+* -------------------------------------------- */ 
+
+	.top_title_holder ul { float:left; margin-top:12px; }
+	
+
+	
+	
+/* -------------------------------------------
+	BLOG POSTS
+* -------------------------------------------- */	
+
+/*  Large post */
+	.large_post .post_item_holder, .large_post .gallery_items_holder , .large_post .gallery_slider { width:288px; height:121px; }	
+	.large_post .bx-prev, .large_post .bx-next { top:38px; }
+	
+/*  Medium post */
+	.medium_post .post_item_holder,.medium_post .gallery_items_holder,.medium_post .gallery_slider {  height:181px; width:288px; margin-bottom:20px; }
+	.medium_post .medium_post_content { width:300px; margin-left:0;  }
+	.medium_post .bx-prev, .medium_post .bx-next { top:70px; }
+	
+/*  Full width post */	
+	.full_width_post .post_item_holder,.full_width_post .gallery_items_holder, .full_width_post .gallery_slider  { width:288px; height:111px; }
+	.full_width_post .bx-prev, .full_width_post .bx-next { top:38px; }
+	
+	
+/*  Share Post Story  */	
+	.post_share_holder  h4{ width:100%; line-height:21px; padding:0; }	
+	.post_share_holder  ul.social_list{ float:left;  width:100%; }	
+
+/*	About the Author   */	
+	.about_author, .about_author .author_content { width:288px; }	
+
+/*	Blog Comment Form  */	
+	.reply_holder textarea { width:95%; height:170px; }	
+	.reply_holder input[type="text"] { width:97%; }	
+	
+	
+	
+	
+
+/* -------------------------------------------
+	CONTACT FORM
+* -------------------------------------------- */
+	
+	.contact_form_holder textarea { width:95%; height:170px; }
+	.contact_form_holder input[type="text"] { width:97%; }	
+	
+	
+	
+	
+
+/* -------------------------------------------
+	PROJECTS
+* -------------------------------------------- */	
+	
+/*	Projects Common style  */	
+	.project_holder { width:288px; height:139px; }		
+	
+/*	SlideShow Project  */	
+	.project_holder .bx-prev, .project_holder .bx-next { top:50px; }	
+	
+/*	Gallery Projects  */	
+	.gallery_project_item { width:287px; height:228px; }	
+	ul.gallery_project_list li{ margin-left:0; }	
+	
+	
+	
+	
+/* -------------------------------------------
+	PAGINATION
+* -------------------------------------------- */
+	.pagination	{ float:left; }
+	
+
+
+	
+/* ------------------------------------------
+	SIDEBAR WIDGETS
+* ------------------------------------------- */
+
+/*	Latest projects widget   */
+	.sidebar .widget.latest_projects ul li { float:left; margin:0 8px 8px 0px; }
+	.sidebar .widget.latest_projects ul li.last { margin-right:8px; }
+
+/*	Video Widget	*/	
+	.sidebar .widget.video .iframeHolder, .sidebar .widget.video .iframeHolder iframe { width:288px; height:121px; }
+
+/*	Search Widget	*/	
+	.sidebar .widget.search  input[type="text"] {  width:270px }	
+	
+	
+	
+	
+/* -------------------------------------------
+	PORTOFOLIO
+* -------------------------------------------- */	
+	
+	.c2, .c3, .c4 { width:300px; }
+	.c2  li, .c3 li, .c4  li{ width:288px; height:192px;  }
+
+/* 	Galler style  */
+	.gallery_style_item.one_column { width:288px; height:111px; }			
+	.gallery_style_item.two_columns { width:288px; height:192px; }	
+	.gallery_style_item.three_columns { width:288px; height:192px; }
+	.gallery_style_item.three_columns.last { margin-right:0; }
+	.gallery_style_item.four_columns { width:288px; height:192px; }
+	
+	
+	
+	
+		
+/* -------------------------------------------
+	TESTIMONIALS
+* -------------------------------------------- */
+	.testimonials_imgHolder.half { width:289px; height:161px; }
+	.testimonials_content.full { float:left; margin:0; }
+	
+	
+	
+
+	
+	
+/* -------------------------------------------
+	COMPANY HISTORY
+* -------------------------------------------- */
+	.history_holder, .history_year_holder { width:100px; height:100px; }
+	.history_content { margin-left:120px; }
+	
+
+
+
+/* -------------------------------------------
+	WIDE SLIDER
+* -------------------------------------------- */	
+	.wide_slider_holder  { width:289px; height:62px; }
+	.wide_slider_holder h2 { font-size:10px;  padding:1px 2px; top:12px; margin-left:30px; }
+	.wide_slider_holder p { font-size:10px; top:35px; padding:1px 2px; margin-left:30px;}
+	.wide_slider_holder h2.right { top:35px; margin-left:100px; }
+	.wide_slider_holder .bx-prev, .wide_slider_holder .bx-next { top:13px; }
+	
+
+	
+
+/* -------------------------------------------
+	BXSLIDER MAIN
+* -------------------------------------------- */
+	.bxWrapper { width:289px; height:109px; }
+	.bxWrapper .bx-prev, .bxWrapper .bx-next { top:30px; }	
+	
+	
+
+
+/* -------------------------------------------
+	FAQ
+* -------------------------------------------- */	
+	.faq_links_holder{ width:289px; }
+	.faq_links_white{ width:279px; padding:15px 5px; }
+	ol.faq_links { width:245px; }
+	ol.faq_links.right { float:left; }
+
+
+
+	
+/* -------------------------------------------
+	PRICING
+* -------------------------------------------- */		
+	 
+	.pricing_table ul { width:280px; margin-bottom:20px; }
+	.pricing_table ul a { padding-left:80px; padding-right:80px; }
+	.pricing_table ul.last { margin-bottom:0; }
+		
+		
+		
+		
+
+/* -------------------------------------------
+	ERROR 404
+* -------------------------------------------- */
+	.holder_404 { margin:0 auto; }		
+
+
+
+
+/* -------------------------------------------
+	STYLE SWITCHER
+* -------------------------------------------- */	
+	
+	#style_switcher { display:none; }
+	
+	
+
+	
+	
+	
+	
+	}
+
+	
+	
+	
+	
+
+
+

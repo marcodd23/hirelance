@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
+<tiles-definitions>
+
+	<definition name="standard" template="/WEB-INF/views/layout/layout.jsp">
+        <put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/views/layout/menu.jsp"/>
+    </definition>
+    
+    <definition name="search" template="/WEB-INF/views/layout/search.jsp"/>
+    
+    <definition name="common.index" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/index.jsp"/>
+    </definition>
+    <definition name="common.welcome" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/welcome.jsp"/>
+    </definition>
+    <definition name="common.accessdenied" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/error_page.jsp"/>
+    </definition>
+    <definition name="common.login_form" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/login_form.jsp"/>
+    </definition>   
+     <definition name="common.login_failed" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/login_form.jsp"/>
+        <put-attribute name="error" value="true"></put-attribute>
+    </definition>
+     <definition name="common.login_ready" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/login_form.jsp"/>
+        <put-attribute name="ready" value="true"></put-attribute>
+    </definition>
+    <definition name="common.login_retrival_ok" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/login_form.jsp"/>
+        <put-attribute name="retrival_ok" value="true"></put-attribute>
+    </definition>
+    <definition name="common.login_retrival_exception" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/login_form.jsp"/>
+        <put-attribute name="retrival_exception" value="true"></put-attribute>
+    </definition>
+    <definition name="common.login_change_ok" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/login_form.jsp"/>
+        <put-attribute name="change_ok" value="true"></put-attribute>
+    </definition>
+    
+    <definition name="common.contact" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/contact.jsp"/>
+    </definition>  
+    <definition name="common.support" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/support.jsp"/>
+    </definition>  
+    
+    <definition name="users.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/users/user_form.jsp"/>
+        <put-attribute name="action" value="/users/create"/>
+    </definition>
+    <definition name="users.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/users/views.jsp"/>
+    </definition>
+    <definition name="users.deleteform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/users/user_form.jsp"/>
+        <put-attribute name="delete" value="true"/>
+        <put-attribute name="action" value="/users/delete"/>
+    </definition>
+    <definition name="users.updateform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/users/user_form.jsp"/>
+        <put-attribute name="delete" value="false"/>
+        <put-attribute name="action" value="/users/update"/>
+    </definition>
+    
+    <definition name="main.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/categories/maincategories/mainCategory_form.jsp"/>
+        <put-attribute name="action" value="/categories/main/create"/>
+    </definition>
+    <definition name="main.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/categories/maincategories/views.jsp"/>
+    </definition>
+    <definition name="main.deleteform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/categories/maincategories/mainCategory_form.jsp"/>
+        <put-attribute name="delete" value="true"/>
+        <put-attribute name="action" value="/categories/main/delete"/>
+    </definition>
+    
+    <definition name="sub.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/categories/subcategories/subCategory_form.jsp"/>
+        <put-attribute name="action" value="/categories/sub/create"/>
+    </definition>
+    <definition name="sub.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/categories/subcategories/views.jsp"/>
+    </definition>
+     <definition name="sub.deleteform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/categories/subcategories/subCategory_form.jsp"/>
+        <put-attribute name="delete" value="true"/>
+        <put-attribute name="action" value="/categories/sub/delete"/>
+    </definition>
+    
+    <definition name="skill.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/categories/skills/skill_form.jsp"/>
+        <put-attribute name="action" value="/categories/skill/create"/>
+    </definition>
+    <definition name="skill.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/categories/skills/views.jsp"/>
+    </definition>
+    
+   <definition name="account.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/account/views.jsp"/>
+    </definition>
+    
+    <definition name="freelancers.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/profiles/freelancers/freelancerform.jsp"/>
+		<put-attribute name="action" value="/profiles/freelancer/create" />   
+    </definition>
+    <definition name="freelancers.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/profiles/freelancers/views.jsp"/>
+    </definition>
+  	   
+     <definition name="freelancers.views_all" extends="standard">
+        <put-attribute name="body">
+	        <definition extends="search">
+	        	<put-attribute name="init" value="/WEB-INF/views/profiles/freelancers/search/init.jsp"/>
+	        	<put-attribute name="header" value="/WEB-INF/views/profiles/freelancers/search/header.jsp"/>
+	        	<put-attribute name="order" value="/WEB-INF/views/profiles/freelancers/search/order.jsp"/>
+	        	<put-attribute name="sidebar" value="/WEB-INF/views/common/sidebar.jsp"/>
+        	</definition>
+        </put-attribute>
+    </definition>
+    
+    <definition name="freelancers.updateform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/profiles/freelancers/freelancerform.jsp"/>
+        <put-attribute name="action" value="/profiles/freelancer/update"/>
+    </definition>
+    
+   <definition name="educations.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/curriculum/educations/education_form.jsp"/>
+        <put-attribute name="action" value="/curriculum/educations/create"/>
+    </definition>
+    <definition name="educations.updateform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/curriculum/educations/education_form.jsp"/>
+        <put-attribute name="action" value="/curriculum/educations/update"/>
+	</definition>
+	
+    <definition name="employments.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/curriculum/employments/employment_form.jsp"/>
+        <put-attribute name="action" value="/curriculum/employments/create"/>
+    </definition>
+    <definition name="employments.updateform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/curriculum/employments/employment_form.jsp"/>
+        <put-attribute name="action" value="/curriculum/employments/update"/>
+	</definition>
+	
+    <definition name="languages.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/curriculum/languages/language_form.jsp"/>
+        <put-attribute name="action" value="/curriculum/languages/create"/>
+    </definition>
+    <definition name="languages.updateform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/curriculum/languages/language_form.jsp"/>
+        <put-attribute name="action" value="/curriculum/languages/update"/>
+    </definition>
+    
+    <definition name="skills.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/curriculum/skills/views.jsp"/>
+    </definition>
+    
+    <definition name="clients.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/profiles/clients/client_form.jsp"/>
+        <put-attribute name="action" value="/profiles/client/create"/>
+    </definition>
+    <definition name="clients.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/profiles/clients/client_views.jsp"/>
+    </definition>
+    <definition name="clients.updateform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/profiles/clients/client_form.jsp"/>
+        <put-attribute name="delete" value="false"/>
+        <put-attribute name="action" value="/profiles/client/update"/>
+    </definition>
+    <definition name="clients.views_all" extends="standard">
+        <put-attribute name="body">
+        	<definition extends="search">
+        		<put-attribute name="init" value="/WEB-INF/views/profiles/clients/search/init.jsp"/>
+        		<put-attribute name="header" value="/WEB-INF/views/profiles/clients/search/header.jsp"/>
+        		<put-attribute name="order" value="/WEB-INF/views/profiles/clients/search/order.jsp"/>
+        		<put-attribute name="sidebar" value="/WEB-INF/views/profiles/clients/search/sidebar.jsp"/>
+        	</definition>
+        </put-attribute>
+    </definition>
+    
+    <definition name="projects.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/projects/project_form.jsp"/>
+        <put-attribute name="action" value="/projects/create"/>
+    </definition>
+    <definition name="projects.updateform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/projects/project_form.jsp"/>
+        <put-attribute name="delete" value="false"/>
+        <put-attribute name="action" value="/projects/update"/>
+    </definition>
+    
+    <definition name="projects.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/projects/project_views.jsp"/>
+    </definition>
+    <definition name="projects.message.form" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/projects/project_message_form.jsp"/>
+        <put-attribute name="action" value="/projects/new_message"/>
+    </definition>
+    <definition name="projects.views_all" extends="standard">
+        <put-attribute name="body">
+        	<definition extends="search">
+        		<put-attribute name="init" value="/WEB-INF/views/projects/search/init.jsp"/>
+        		<put-attribute name="header" value="/WEB-INF/views/projects/search/header.jsp"/>
+        		<put-attribute name="order" value="/WEB-INF/views/projects/search/order.jsp"/>
+        		<put-attribute name="sidebar" value="/WEB-INF/views/common/sidebar.jsp"/>
+        	</definition>
+        </put-attribute>
+    </definition>
+    <definition name="projects.views_all_admin" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/projects/views_all.jsp"/>
+    </definition>
+    <definition name="projects.my" extends="standard">
+        <put-attribute name="body">
+        	<definition extends="search">
+        		<put-attribute name="init" value="/WEB-INF/views/projects/search/my_init.jsp"/>
+        		<put-attribute name="header" value="/WEB-INF/views/projects/search/my_header.jsp"/>
+        		<put-attribute name="order" value="/WEB-INF/views/projects/search/order.jsp"/>
+        		<put-attribute name="sidebar" value="/WEB-INF/views/projects/search/my_sidebar.jsp"/>
+        		<put-attribute name="rate_form" value="/WEB-INF/views/projects/search/rate_form.jsp"/>
+        	</definition>
+        </put-attribute>
+    </definition>
+    <definition name="proposal.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/proposal/proposal_form.jsp"/>
+        <put-attribute name="action" value="/projects/new_proposal"/>
+    </definition>
+     
+    <definition name="portfolio.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/portfolio/views.jsp"/>
+    </definition>
+     <definition name="portfolio.createform" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/portfolio/portfolio_form.jsp"/>
+        <put-attribute name="action" value="/portfolio/create"/>
+    </definition>
+    
+    <definition name="freelancers.prova" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/profiles/freelancers/prova.jsp"/>
+    </definition>
+    
+    <definition name="workroom.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/workroom/workroom_views.jsp"/>
+        <put-attribute name="messageActionUri" value="/workroom/message/send"></put-attribute>
+    </definition>
+    
+    <definition name="inbox.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/inbox/inbox_views.jsp"/>
+    </definition>   
+    <definition name="inbox.conversation" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/inbox/inbox_conversation.jsp"/>
+        <put-attribute name="messageActionUri" value="/inbox/message/send"></put-attribute>
+    </definition>
+    
+    <definition name="error-page.views" extends="standard">
+        <put-attribute name="body" value="/WEB-INF/views/common/error_page.jsp"/>
+    </definition> 
+    
+</tiles-definitions>

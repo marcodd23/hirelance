@@ -1,0 +1,58 @@
+
+
+/* --------------------------------------------------------------------------------------------------------
+	########################  DEFAULT SKIN  ########################
+* --------------------------------------------------------------------------------------------------------- */
+
+/* If you want to make your own skin, you just have to replace existing colors with your own and that's all, please do not touch anything except color value */
+
+	
+
+	
+/* -------------------------------------------
+	COLOR ATTRIBUTE
+* -------------------------------------------- */	
+	
+	.dropcap_v1 p:first-letter,.ui-tabs .ui-tabs-nav li.ui-tabs-active a,.holder_404 .num_holder p,ol.faq_links a:hover, ol.faq_links, .answer_content p.answer, .question_num_content span ,
+	.history_year_holder span, .fs_slider p.title_large, .top_title_holder h3 , .standard_promobox h2, .oregano,a, a:visited   { color:#2d94d7; }
+	.strips_button:hover,  .sf-menu.sf-v3 li a.current  { color:#2d94d7 !important; }
+
+
+	
+	
+/* -------------------------------------------
+	BORDER ATTRIBUTE
+* -------------------------------------------- */
+
+	blockquote.bq{ border-left:2px solid #2d94d7; }
+	.ui-tabs .ui-tabs-nav li.ui-tabs-active { border-top:1px solid #2d94d7; }
+	ol.faq_links a:hover { border-bottom:1px dotted #2d94d7; } 
+	.arrow-down { border-top: 5px solid #2d94d7; }
+	.testimonialList li .testimonialHolder{ border-bottom:1px solid #2d94d7; }
+	.testimonialList li img  { border:1px solid #2d94d7; }
+	.sf-menu li ul { border-top:3px solid #2d94d7; }
+	#wrapoverall{ border-top:3px solid #2d94d7; border-bottom:3px solid #2d94d7; }
+
+	
+
+
+/* -------------------------------------------
+	BACKGROUND COLOR ATTRIBUTE
+* -------------------------------------------- */
+
+		.circle_list li:before, .dropcap_v4 p:first-letter, .ui-progressbar .ui-progressbar-value, .fs_slider p.title_skin, .wide_slider_holder h2, .post_date,
+		.panel .front span, .featured_v5 .imgHolder, .featured_v2 .imgHolder, .featured_v1 .imgHolder, .sf-menu > li:hover,.sf-menu > li a.current, .skin_promobox ,
+		footer .twitter_feed, .pagination ul li a.current, .postType , .panel .back, ul.social_list li a.dark:hover, ul.social_list li a, .standard_button, .sf-menu.sf-v3 li:hover .current,
+		.sf-menu.sf-v4 li a	{ background-color:#2d94d7; }
+		.ui-accordion .ui-state-active .ui-icon { background-color:#2d94d7 !important; }
+		
+		
+				
+
+/* -------------------------------------------
+	BORDERS ATTRIBUTE LIGHT COLOR
+* -------------------------------------------- */
+		
+		/*  This color is used for borders ( e.g .standard_button ) has border which is a little bit lighter than its own color  */	
+		
+		footer .twitter_feed, ul.social_list li a.dark:hover, ul.social_list li a, .standard_button {  border:1px solid #42b3fd; }
