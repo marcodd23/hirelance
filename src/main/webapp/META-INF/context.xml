@@ -1,0 +1,13 @@
+<Context path="/hirelance">
+
+	<!-- <Resource name="jpa/hirelancedb" scope="Unshareable" type="javax.sql.DataSource" 
+		maxActive="100" maxIdle="30" maxWait="5000" username="hirelance" password="hirelance" 
+		driverClassName="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@192.168.56.101:1521:XE"/> -->
+	
+	
+	<Resource name="jpa/hirelancedb" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="hirelanceuser" password="hirelancepassword" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/hirelancedb"/>
+
+</Context>
