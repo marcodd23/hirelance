@@ -3,7 +3,7 @@ hirelance
 
 Java EE  Spring MVC Social Network
 
-[Hirelance](http://hirelance-goodbytes.rhcloud.com/) is a prototype of a social network to connect the world of freelancing with that of employers. 
+[Hirelance](http://hirelance-goodbytes.rhcloud.com/) is a demo of social network to connect the world of freelancing with that of employers. 
 It is based on J2EE Technologies , with Spring MVC and Jsp for the Presentation Layer, JPA (EclipseLink) 
 for the Persistence Layer. The DB is Oracle XE11g. A User can create an account to the platform with 
 Username and Password. After that he can chose to create a "Freelance" profile , "Employer" profile or both. 
