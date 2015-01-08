@@ -28,6 +28,7 @@ but only the Employer can start the conversation
 ![alt tag](https://bitbucket.org/repo/zR9Xbn/images/3576652122-use_case.png)
 
 
+
 ####The Domain Model:
 
 ![](https://bitbucket.org/repo/zR9Xbn/images/1889302071-class_model.png)
