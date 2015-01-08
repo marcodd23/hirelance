@@ -4,7 +4,7 @@ hirelance
 Java EE  Spring MVC Social Network
 
 ##How To:
-
+If you want to run the web-app on localhost, follow these steps:
 * Clone the project 
 * $ **mvn clean install**
 * $ **mvn cargo:run**
