@@ -16,7 +16,7 @@ If you want to run the web-app on localhost, follow these steps:
 ##Description
 
 [Hirelance](http://hirelance-goodbytes.rhcloud.com/) is a demo of social network to connect the world of freelancing with that of employers. 
-It is based on J2EE Technologies , with Spring MVC, Jsp and Apache Tiles for the Presentation Layer and Business Tier, JPA (EclipseLink) for the Persistence Layer. The DB is Oracle XE11g. A User can create an account to the platform with Username and Password. After that he can chose to create a "Freelance" profile , "Employer" profile or both. 
+It is based on J2EE Technologies , with Spring MVC, Jsp and Apache Tiles for the Presentation Layer and Business Tier, JPA (EclipseLink) for the Persistence Layer. A User can create an account to the platform with Username and Password. After that he can chose to create a "Freelance" profile , "Employer" profile or both. 
 An Alias name is associated with each profile , that is the name with which other user can see it. 
 A freelance can find a projects to work on, and apply. An employers can post a project and search for 
 a freelance to work with. At the end of a project, freelance and employee leave a feedback each other.
