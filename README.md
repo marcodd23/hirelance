@@ -23,12 +23,12 @@ a freelance to work with. At the end of a project, freelance and employee leave 
 They can comunicate together with an internal chat, with facebook style notification, 
 but only the Employer can start the conversation
 
-###The Use-Case diagram:
+####The Use-Case diagram:
 
 ![alt tag](https://bitbucket.org/repo/zR9Xbn/images/3576652122-use_case.png)
 
 
-###The Domain Model:
+####The Domain Model:
 
 ![](https://bitbucket.org/repo/zR9Xbn/images/1889302071-class_model.png)
 
