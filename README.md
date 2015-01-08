@@ -26,3 +26,4 @@ The Domain Model:
 * Clone the project 
 * $ **mvn clean install**
 * $ **mvn cargo:run**
+* go to: **http://localhost:7070/hirelance/**
