@@ -10,6 +10,10 @@ Java EE  Spring MVC Social Network
 * $ **mvn cargo:run**
 * go to: **http://localhost:7070/hirelance/**
 
+#Back-End administration  credentials:
+* user: admin
+* password: admin
+
 ##Description
 
 [Hirelance](http://hirelance-goodbytes.rhcloud.com/) is a demo of social network to connect the world of freelancing with that of employers. 
