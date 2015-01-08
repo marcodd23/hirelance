@@ -3,6 +3,15 @@ hirelance
 
 Java EE  Spring MVC Social Network
 
+##How To:
+
+* Clone the project 
+* $ **mvn clean install**
+* $ **mvn cargo:run**
+* go to: **http://localhost:7070/hirelance/**
+
+##Description
+
 [Hirelance](http://hirelance-goodbytes.rhcloud.com/) is a demo of social network to connect the world of freelancing with that of employers. 
 It is based on J2EE Technologies , with Spring MVC, Jsp and Apache Tiles for the Presentation Layer and Business Tier, JPA (EclipseLink) for the Persistence Layer. The DB is Oracle XE11g. A User can create an account to the platform with Username and Password. After that he can chose to create a "Freelance" profile , "Employer" profile or both. 
 An Alias name is associated with each profile , that is the name with which other user can see it. 
@@ -21,9 +30,4 @@ The Domain Model:
 ![](https://bitbucket.org/repo/zR9Xbn/images/1889302071-class_model.png)
 
 
-##How To:
 
-* Clone the project 
-* $ **mvn clean install**
-* $ **mvn cargo:run**
-* go to: **http://localhost:7070/hirelance/**
