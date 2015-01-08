@@ -23,6 +23,6 @@ The Domain Model:
 
 ##How To:
 
-*Clone the application 
-*mvn clean install
-*mvn cargo:run
+* Clone the application 
+* mvn clean install
+* mvn cargo:run
