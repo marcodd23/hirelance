@@ -9,9 +9,9 @@ If you want to run the web-app on localhost, follow these steps:
 * $ **mvn clean install**
 * $ **mvn cargo:run**
 * go to: **http://localhost:7070/hirelance/**
-* #Back-End administration  credentials:
-** user: admin
-** password: admin
+* Back-End administration  credentials:
+  * user: admin
+  * password: admin
 
 ##Description
 
