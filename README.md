@@ -19,3 +19,10 @@ The Use-Case diagram:
 The Domain Model:
 
 ![](https://bitbucket.org/repo/zR9Xbn/images/1889302071-class_model.png)
+
+
+##How To:
+
+*Clone the application 
+*mvn clean install
+*mvn cargo:run
