@@ -5,10 +5,14 @@ Java EE  Spring MVC Social Network
 
 ##How To:
 If you want to run the web-app on localhost, follow these steps:
+* Create Database on MySql:
+  * CREATE DATABASE **hirelancedb**;
+  * CREATE USER '**hirelanceuser**'@'localhost' IDENTIFIED BY '**hirelancepassword**';
+  * GRANT ALL PRIVILEGES ON **hirelancedb**. * TO 'hirelanceuser'@'localhost' WITH GRANT OPTION; 
 * Clone the project 
 * $ **mvn clean install**
 * $ **mvn cargo:run**
-* go to: **http://localhost:7070/hirelance/**
+* The first time go to: **http://localhost:7070/hirelance/init/populate** to generate DB tables and populate them with some data.
 * Back-End administration  credentials:
   * user: admin
   * password: admin
