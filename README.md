@@ -14,8 +14,8 @@ If you want to run the web-app on localhost, follow these steps:
 * $ **mvn cargo:run**
 * The first time go to: **http://localhost:7070/hirelance/init/populate** to generate DB tables and populate them with some data.
 * Back-End administration  credentials:
-  * user: admin
-  * password: admin
+  * **user**: admin
+  * **password**: admin
 
 ##Description
 
