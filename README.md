@@ -8,7 +8,7 @@ If you want to run the web-app on localhost, follow these steps:
 * Create Database on MySql:
   * CREATE DATABASE **hirelancedb**;
   * CREATE USER '**hirelanceuser**'@'localhost' IDENTIFIED BY '**hirelancepassword**';
-  * GRANT ALL PRIVILEGES ON **hirelancedb**. * TO 'hirelanceuser'@'localhost' WITH GRANT OPTION; 
+  * GRANT ALL PRIVILEGES ON hirelancedb.* TO 'hirelanceuser'@'localhost' WITH GRANT OPTION; 
 * Clone the project 
 * $ **mvn clean install**
 * $ **mvn cargo:run**
