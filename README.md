@@ -10,8 +10,8 @@ It is based on J2EE Technologies , with Spring MVC, Spring Security, Jsp and Apa
 An Alias name is associated with each profile , that is the name with which other user can see it. 
 A freelance can find a projects to work on, and apply. An employers can post a project and search for 
 a freelance to work with. At the end of a project, freelance and employee leave a feedback each other.
-They can comunicate together with an internal chat, with facebook style notification, 
-but only the Employer can start the conversation
+They can comunicate together with Messaging System, with facebook style notification, 
+and the rule is that only the Employer can start the conversation
 
 ##How To:
 If you want to run the web-app on localhost, follow these steps:
